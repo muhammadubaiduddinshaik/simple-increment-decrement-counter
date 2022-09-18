@@ -1,0 +1,104 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        background-color: #829391;
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    padding: 10px;
+    }
+    .main{
+        height: 300px;
+        width: 500px;
+        background-image: url(./img.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:center ;
+    margin: auto;
+    margin-top: 108px;
+        border-radius: 4px;
+        text-align: center;
+        /* position: relative; */
+    }
+    .number{
+    height: 31px;
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    border: 2px solid black;
+
+    }
+    .increment{
+        height: 26px;
+        width: 100px;
+        margin-left: 5px;
+        font-size: medium;
+    font-weight: 600;
+    background:none;
+    }
+    .decrement{
+        height: 25px;
+        width: 100px;
+        margin-top: 50px;
+        margin-left: 5px;
+        font-size: medium;
+    font-weight: 600;
+    background:none;
+    } 
+    span{
+        font-size: 27px ;
+    
+    }
+    .reset{
+    margin-left: 30px;
+    height: 33px;
+    width: 202px;
+        text-align: center;
+        font-size: medium;
+    font-weight: 600;
+    background-color: #CCCDC6
+    }
+    .btns{
+        height: 33px;
+        width: 200px;
+        padding: 8px;
+        margin-top: 10px;
+        margin-left: 112px;
+        position: absolute
+    }
+    button:hover{
+        color: #f5f8f8;
+        cursor: pointer;
+        visibility: none;
+        background-color: #829391;
+        transition: 0.3s all;
+    }
+.tag{
+    color: white;
+    background: #504a4a;
+    text-decoration: underline;
+}
+@media(max-width:586px){
+    .main{
+        width: 100%;
+    }
+    .number{
+        width: 100%;
+    }
+    .reset{
+        max-width: 202px
+        position fit-content;
+    }
+    .btns{
+       max-width: 20%;
+        }
+    .tag{
+        width: 100%;
+    }
+}
